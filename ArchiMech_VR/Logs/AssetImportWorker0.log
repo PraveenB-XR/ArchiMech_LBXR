@@ -15,7 +15,7 @@ F:/OTHER FILES/learning & tries/General Unity Projects/VR Practices/ArchiMech_LB
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62059
+65526
 Successfully changed project path to: F:/OTHER FILES/learning & tries/General Unity Projects/VR Practices/ArchiMech_LBXR/ArchiMech_VR
 F:/OTHER FILES/learning & tries/General Unity Projects/VR Practices/ArchiMech_LBXR/ArchiMech_VR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ F:/OTHER FILES/learning & tries/General Unity Projects/VR Practices/ArchiMech_LB
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [37456] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 506549436 [EditorId] 506549436 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27744] Host "[IP] 192.168.0.112 [Port] 0 [Flags] 2 [Guid] 1571883693 [EditorId] 1571883693 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [37456] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 506549436 [EditorId] 506549436 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27744] Host "[IP] 192.168.0.112 [Port] 0 [Flags] 2 [Guid] 1571883693 [EditorId] 1571883693 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 7.85 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.47 ms.
+Refreshing native plugins compatible for Editor in 9.68 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.46 ms.
 Initialize engine version: 2022.3.2f1 (d74737c6db50)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path F:/OTHER FILES/learning & tries/General Unity Projects/VR Practices/ArchiMech_LBXR/ArchiMech_VR/Assets
@@ -69,45 +69,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.008602 seconds.
-- Loaded All Assemblies, in  0.253 seconds
+Registered in 0.011865 seconds.
+- Loaded All Assemblies, in  0.250 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.198 seconds
-Domain Reload Profiling: 450ms
-	BeginReloadAssembly (69ms)
+- Finished resetting the current domain, in  0.189 seconds
+Domain Reload Profiling: 438ms
+	BeginReloadAssembly (66ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (26ms)
+	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (101ms)
-		LoadAssemblies (68ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (97ms)
+		LoadAssemblies (63ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (94ms)
-			TypeCache.Refresh (94ms)
-				TypeCache.ScanAssembly (85ms)
+		AnalyzeDomain (91ms)
+			TypeCache.Refresh (91ms)
+				TypeCache.ScanAssembly (83ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (199ms)
+	FinalizeReload (189ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (155ms)
+		SetupLoadedEditorAssemblies (149ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (106ms)
+			ProcessInitializeOnLoadAttributes (101ms)
 			ProcessInitializeOnLoadMethodAttributes (34ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -116,8 +116,10 @@ Domain Reload Profiling: 450ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.672 seconds
-Refreshing native plugins compatible for Editor in 2.98 ms, found 6 plugins.
+Symbol file LoadedFromMemory doesn't match image F:\OTHER FILES\learning & tries\General Unity Projects\VR Practices\ArchiMech_LBXR\ArchiMech_VR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\OTHER FILES\learning & tries\General Unity Projects\VR Practices\ArchiMech_LBXR\ArchiMech_VR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.654 seconds
+Refreshing native plugins compatible for Editor in 3.03 ms, found 6 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -146,119 +148,48 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.503 seconds
-Domain Reload Profiling: 1173ms
+- Finished resetting the current domain, in  0.520 seconds
+Domain Reload Profiling: 1172ms
 	BeginReloadAssembly (107ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (24ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (495ms)
-		LoadAssemblies (259ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (479ms)
+		LoadAssemblies (240ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (286ms)
-			TypeCache.Refresh (256ms)
+			TypeCache.Refresh (257ms)
 				TypeCache.ScanAssembly (246ms)
 			ScanForSourceGeneratedMonoScriptInfo (22ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (504ms)
+	FinalizeReload (521ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (370ms)
+		SetupLoadedEditorAssemblies (384ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (229ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (244ms)
 			ProcessInitializeOnLoadMethodAttributes (54ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 6.34 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 6490 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 83 unused Assets / (1.5 MB). Loaded Objects now: 6945.
-Memory consumption went from 225.4 MB to 223.9 MB.
-Total: 3.820700 ms (FindLiveObjects: 0.500000 ms CreateObjectMapping: 0.182700 ms MarkObjects: 2.700700 ms  DeleteObjects: 0.436800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/Oculus.cs: 2edcd533dd4b371bb248051a8fa77761 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 55048.721804 seconds.
-  path: Assets/XR
-  artifactKey: Guid(913d221fe1a6cbd479bcf0d188629c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR using Guid(913d221fe1a6cbd479bcf0d188629c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f522671e6f5f041df8f8931a540de7') in 0.001893 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.156605 seconds.
-  path: Assets/XR/XRGeneralSettingsPerBuildTarget.asset
-  artifactKey: Guid(a86f473533b3b9845b12ce44d7bac772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/XRGeneralSettingsPerBuildTarget.asset using Guid(a86f473533b3b9845b12ce44d7bac772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e518c4afb3f54d8b2e490a3b763942') in 0.010953 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 49.627485 seconds.
-  path: Assets/3D URP
-  artifactKey: Guid(95362fdb3aca06e48ba08c265830897b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D URP using Guid(95362fdb3aca06e48ba08c265830897b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb42ccbd071ff2f8dab468629c124d84') in 0.000453 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 53.346467 seconds.
-  path: Assets/3D URP/GeneralURP Reded.asset
-  artifactKey: Guid(cf928d00a8444ba49935f9e36e1ec6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D URP/GeneralURP Reded.asset using Guid(cf928d00a8444ba49935f9e36e1ec6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb68998a0ff4168c792d1de46ca441b') in 0.023391 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 50
-========================================================================
-Received Import Request.
-  Time since last request: 14.519902 seconds.
-  path: Assets/3D URP/GeneralURP.asset
-  artifactKey: Guid(cf928d00a8444ba49935f9e36e1ec6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D URP/GeneralURP.asset using Guid(cf928d00a8444ba49935f9e36e1ec6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7cc5e3d36e32459929bd8dabd17e1cc') in 0.014681 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 50
-========================================================================
-Received Import Request.
-  Time since last request: 6.295996 seconds.
-  path: Assets/3D URP/GeneralURP_Renderer.asset
-  artifactKey: Guid(481c4d9d8cb338d4491cb8bb6760a189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D URP/GeneralURP_Renderer.asset using Guid(481c4d9d8cb338d4491cb8bb6760a189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff061db4b85a22d4f3cd9043ad8f5b5') in 0.008388 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 47
-========================================================================
-Received Prepare
-Switching render pipeline 00000000000000000000000000000000 -> cf928d00a8444ba49935f9e36e1ec6a0
-Refreshing native plugins compatible for Editor in 3.46 ms, found 6 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.52 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 56 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7 unused Assets / (1.5 MB). Loaded Objects now: 6996.
-Memory consumption went from 112.0 MB to 110.6 MB.
-Total: 4.917000 ms (FindLiveObjects: 0.473500 ms CreateObjectMapping: 0.365600 ms MarkObjects: 3.676600 ms  DeleteObjects: 0.400700 ms)
+Unloading 6549 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (1.1 MB). Loaded Objects now: 7006.
+Memory consumption went from 238.4 MB to 237.4 MB.
+Total: 4.596400 ms (FindLiveObjects: 0.524300 ms CreateObjectMapping: 0.466000 ms MarkObjects: 3.246500 ms  DeleteObjects: 0.358500 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -267,15 +198,221 @@ AssetImportParameters requested are different than current active one (requested
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/Oculus.cs: 2edcd533dd4b371bb248051a8fa77761 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.970405 seconds.
-  path: Assets/3D URP/GeneralURP.asset
-  artifactKey: Guid(cf928d00a8444ba49935f9e36e1ec6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D URP/GeneralURP.asset using Guid(cf928d00a8444ba49935f9e36e1ec6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59ae8df71171b57780b6a392e18941e') in 0.004485 seconds
-Number of updated asset objects reloaded before import = 1
+  Time since last request: 67854.952549 seconds.
+  path: Assets/JP_School classroom_V2/Scenes/School_Classroom.unity
+  artifactKey: Guid(b64e7bfed3af07540960a741f9195d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JP_School classroom_V2/Scenes/School_Classroom.unity using Guid(b64e7bfed3af07540960a741f9195d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2babe33b7b272275dde03fea4a5bf55') in 0.001474 seconds
+Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/JP_School classroom_V2/Textures
+  artifactKey: Guid(791595a40fe0c894e90d86106ba74500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JP_School classroom_V2/Textures using Guid(791595a40fe0c894e90d86106ba74500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442a77c2d5528a33123e9328da311fdc') in 0.000285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/JP_School classroom_V2/SKY_School classroom.mat
+  artifactKey: Guid(175c39fda338e6044900dfc6e2b3c155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JP_School classroom_V2/SKY_School classroom.mat using Guid(175c39fda338e6044900dfc6e2b3c155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9651ba53b4936e0473464428bb20157') in 0.001195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 34.221355 seconds.
+  path: Assets/3D SCENES/LOBBY SCENE.unity
+  artifactKey: Guid(811a5f68cf5a9b645a9490f89dba21bd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/3D SCENES/LOBBY SCENE.unity using Guid(811a5f68cf5a9b645a9490f89dba21bd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Opening scene 'Assets/3D SCENES/LOBBY SCENE.unity additively'
+Loaded scene 'Assets/3D SCENES/LOBBY SCENE.unity'
+	Deserialize:            0.478 ms
+	Integration:            1.864 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.004 ms
+	Total Operation Time:   2.347 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0b6789b96fe3d33ac1e50380b433b47') in 0.148702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/JP_School classroom_V2/Scenes/School_Classroom/LightingData.asset
+  artifactKey: Guid(e0afdbc1418043042a5eaab721b3d017) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/JP_School classroom_V2/Scenes/School_Classroom/LightingData.asset using Guid(e0afdbc1418043042a5eaab721b3d017) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18fcd43c0345d9f5a0698efc3f890250') in 0.015895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D URP/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(1293555fde25d824b9138adc9ea753a7) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/3D URP/UniversalRenderPipelineGlobalSettings.asset using Guid(1293555fde25d824b9138adc9ea753a7) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '64bd9251b131739f278e5e0c2f90df5a') in 0.015784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/XR/XRGeneralSettingsPerBuildTarget.asset
+  artifactKey: Guid(a86f473533b3b9845b12ce44d7bac772) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/XR/XRGeneralSettingsPerBuildTarget.asset using Guid(a86f473533b3b9845b12ce44d7bac772) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5224fbd831bb1ff091b529e1237e6e78') in 0.019648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/XR/Loaders/OculusLoader.asset
+  artifactKey: Guid(f6ab8d51f6ae35a48b9d674d14251f5a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/XR/Loaders/OculusLoader.asset using Guid(f6ab8d51f6ae35a48b9d674d14251f5a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79e1bca0086f2b012cf77dfc608913ab') in 0.010901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/JP_School classroom_V2/Prefabs/projector01.prefab
+  artifactKey: Guid(f16d4e25e865bf04aae08d11830d6811) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/JP_School classroom_V2/Prefabs/projector01.prefab using Guid(f16d4e25e865bf04aae08d11830d6811) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2254b88de64656c366b5b7bdcda87a90') in 0.014368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/JP_School classroom_V2/Scenes/School_Classroom.unity
+  artifactKey: Guid(b64e7bfed3af07540960a741f9195d89) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/JP_School classroom_V2/Scenes/School_Classroom.unity using Guid(b64e7bfed3af07540960a741f9195d89) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Opening scene 'Assets/JP_School classroom_V2/Scenes/School_Classroom.unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+Loaded scene 'Assets/JP_School classroom_V2/Scenes/School_Classroom.unity'
+	Deserialize:            10.936 ms
+	Integration:            37.119 ms
+	Integration of assets:  0.006 ms
+	Thread Wait Time:       0.072 ms
+	Total Operation Time:   48.133 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2bda6197c8b5b1b44e06b516f143449a') in 0.163977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 712
+========================================================================
+Received Import Request.
+  Time since last request: 0.062244 seconds.
+  path: Assets/XRI
+  artifactKey: Guid(f1164fac8216430438dc328116976d20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XRI using Guid(f1164fac8216430438dc328116976d20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd8f41a32a7e2181c57c29209b890e1a') in 0.015543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003859 seconds.
+  path: Assets/3D URP/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(1293555fde25d824b9138adc9ea753a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D URP/UniversalRenderPipelineGlobalSettings.asset using Guid(1293555fde25d824b9138adc9ea753a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '369772baaba83109504e63b57a16a86a') in 0.078138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/JP_School classroom_V2/Textures/desk02_NRM.png
+  artifactKey: Guid(8a42b79c07f601e49a5205394d69a3e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Textures/desk02_NRM.png using Guid(8a42b79c07f601e49a5205394d69a3e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28fb5357079047ef75cd4a838d67dfd3') in 0.060558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/JP_School classroom_V2/Textures/lamp02_NRM.png
+  artifactKey: Guid(ee95f73e01e423840a76541350c12d33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Textures/lamp02_NRM.png using Guid(ee95f73e01e423840a76541350c12d33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a8a0b2ab5b80128ebbf66ef801af8b3') in 0.027981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3D URP
+  artifactKey: Guid(95362fdb3aca06e48ba08c265830897b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D URP using Guid(95362fdb3aca06e48ba08c265830897b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b01db5866121cd7fc413df730dddee32') in 0.014597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/JP_School classroom_V2/Textures/projector01_MTL.tga
+  artifactKey: Guid(a36f9f947f8d49e459f9109139b7afea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Textures/projector01_MTL.tga using Guid(a36f9f947f8d49e459f9109139b7afea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de004b7a663274e40d9c423e994c81c1') in 0.023916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/classroom_wall01.mat
+  artifactKey: Guid(549d08f0b3b0e3a43a1fefe3839b9fa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/classroom_wall01.mat using Guid(549d08f0b3b0e3a43a1fefe3839b9fa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c5fe416c23107ca9a055a5a503b15e00') in 0.064302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/JP_School classroom_V2/Textures/eraser01_NRM.png
+  artifactKey: Guid(72ed641d9872ee8418bea6346188b5d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Textures/eraser01_NRM.png using Guid(72ed641d9872ee8418bea6346188b5d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ffb496929c3ba359c54acdd3202e1d9') in 0.025355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/JP_School classroom_V2/Textures/classroom_floor01_1.png
+  artifactKey: Guid(a6b9f96bb27bee1428881e556b85e714) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Textures/classroom_floor01_1.png using Guid(a6b9f96bb27bee1428881e556b85e714) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1fa1b6baa26f09dd77defa9ab3f8e451') in 0.028053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/speaker01_2.fbx
+  artifactKey: Guid(4ff7d574fee440f43839b4c7b306ffed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/speaker01_2.fbx using Guid(4ff7d574fee440f43839b4c7b306ffed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8fc3070095f78573165b9a514ab5d82a') in 0.039018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/erasercleaner01.fbx
+  artifactKey: Guid(0066048c0b8e8af4ebeb4c8f8325d6b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/erasercleaner01.fbx using Guid(0066048c0b8e8af4ebeb4c8f8325d6b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a6183cc6397ca148805abd349d2db24') in 0.023189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JP_School classroom_V2/Scenes/School_Classroom/ReflectionProbe-0.exr
+  artifactKey: Guid(fe0c892bd1b912f4694a4a429fa08977) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Scenes/School_Classroom/ReflectionProbe-0.exr using Guid(fe0c892bd1b912f4694a4a429fa08977) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b62801d9e0a4cb703633c4aab87f6a0') in 0.023409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: balancing worker count downwards
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

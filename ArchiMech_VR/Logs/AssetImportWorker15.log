@@ -1,0 +1,2060 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.2f1 (d74737c6db50) revision 14108471'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32675 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker15
+-projectPath
+F:/OTHER FILES/learning & tries/General Unity Projects/VR Practices/ArchiMech_LBXR/ArchiMech_VR
+-logFile
+Logs/AssetImportWorker15.log
+-srvPort
+65526
+Successfully changed project path to: F:/OTHER FILES/learning & tries/General Unity Projects/VR Practices/ArchiMech_LBXR/ArchiMech_VR
+F:/OTHER FILES/learning & tries/General Unity Projects/VR Practices/ArchiMech_LBXR/ArchiMech_VR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [34216] Host "[IP] 192.168.0.112 [Port] 0 [Flags] 2 [Guid] 1738047371 [EditorId] 1738047371 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [34216] Host "[IP] 192.168.0.112 [Port] 0 [Flags] 2 [Guid] 1738047371 [EditorId] 1738047371 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 17.62 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.53 ms.
+Initialize engine version: 2022.3.2f1 (d74737c6db50)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/OTHER FILES/learning & tries/General Unity Projects/VR Practices/ArchiMech_LBXR/ArchiMech_VR/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8032 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.021355 seconds.
+- Loaded All Assemblies, in  0.475 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.336 seconds
+Domain Reload Profiling: 807ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (130ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (177ms)
+			TypeCache.Refresh (176ms)
+				TypeCache.ScanAssembly (162ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (336ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (261ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (176ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\OTHER FILES\learning & tries\General Unity Projects\VR Practices\ArchiMech_LBXR\ArchiMech_VR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\OTHER FILES\learning & tries\General Unity Projects\VR Practices\ArchiMech_LBXR\ArchiMech_VR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.055 seconds
+Refreshing native plugins compatible for Editor in 19.09 ms, found 6 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <605bf8b31fcb444b85176da963870aa7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <605bf8b31fcb444b85176da963870aa7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <605bf8b31fcb444b85176da963870aa7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <ac87b54e58ee4be198261fd5c8030d52>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.843 seconds
+Domain Reload Profiling: 1895ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (778ms)
+		LoadAssemblies (366ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (477ms)
+			TypeCache.Refresh (420ms)
+				TypeCache.ScanAssembly (402ms)
+			ScanForSourceGeneratedMonoScriptInfo (38ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (844ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (589ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (373ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 5.57 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 6549 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (1.1 MB). Loaded Objects now: 7008.
+Memory consumption went from 239.4 MB to 238.3 MB.
+Total: 6.948000 ms (FindLiveObjects: 1.029900 ms CreateObjectMapping: 0.281900 ms MarkObjects: 5.158100 ms  DeleteObjects: 0.476700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 67895.912166 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/curtain01_3.fbx
+  artifactKey: Guid(cc18ca4cae139184487b68af2f952aaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/curtain01_3.fbx using Guid(cc18ca4cae139184487b68af2f952aaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '251dfb0ec60be1f2b9d8c6c3a561bb24') in 0.306295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/screen01_1.mat
+  artifactKey: Guid(e4b656df825629a46a2c42adc77aedba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/screen01_1.mat using Guid(e4b656df825629a46a2c42adc77aedba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb8e4f8fb93b993352418020b8a38e0b') in 0.055661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/JP_School classroom_V2/Textures/desk01_1.png
+  artifactKey: Guid(9612e9193445b424ea897a377399897d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Textures/desk01_1.png using Guid(9612e9193445b424ea897a377399897d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cdc9ae24a5897ceb80a11b39e02a10a2') in 0.037963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/counter01_2.fbx
+  artifactKey: Guid(dcf715bf0a18c7a4197be059295e3194) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/counter01_2.fbx using Guid(dcf715bf0a18c7a4197be059295e3194) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eac18a307272a561b4d1bfbf18a212da') in 0.016792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/JP_School classroom_V2/Textures/classroom_wall02_1.png
+  artifactKey: Guid(3a3593b906b390d4da78106d3a6f56ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Textures/classroom_wall02_1.png using Guid(3a3593b906b390d4da78106d3a6f56ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f8b652a11a15dbaef760aefaa81cd0b7') in 0.017327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/blackboard01_2.fbx
+  artifactKey: Guid(e3e4a90094f7a7a46a311a44d5e0245e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/blackboard01_2.fbx using Guid(e3e4a90094f7a7a46a311a44d5e0245e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b5082d611a9d40ce273a0a47b2958ce') in 0.020197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JP_School classroom_V2/Textures/eraser01_2.png
+  artifactKey: Guid(628c1d85db260814ba4aef440a94038f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Textures/eraser01_2.png using Guid(628c1d85db260814ba4aef440a94038f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f87fc5873fdec22bad26fb4ebc0d091') in 0.013998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D URP/GeneralURP_Renderer.asset
+  artifactKey: Guid(481c4d9d8cb338d4491cb8bb6760a189) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D URP/GeneralURP_Renderer.asset using Guid(481c4d9d8cb338d4491cb8bb6760a189) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23b5f5b9eeb065c303dd8bef7134a553') in 0.024153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/JP_School classroom_V2/Textures/curtain01_MTL.tga
+  artifactKey: Guid(6f5fda4bf5475674ea1016ae743b1f86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Textures/curtain01_MTL.tga using Guid(6f5fda4bf5475674ea1016ae743b1f86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fcca8ef81a6a54b865b1a390bf8a09b8') in 0.017676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/JP_School classroom_V2/Textures/locker01_MTL.tga
+  artifactKey: Guid(a20f181860ce13a4fb7735754e09b600) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Textures/locker01_MTL.tga using Guid(a20f181860ce13a4fb7735754e09b600) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '159f897a4c557391b83db2f1fcca8e80') in 0.018580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/JP_School classroom_V2/Textures/book01_1.png
+  artifactKey: Guid(1301c17660a674b499ed27e3436d23a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Textures/book01_1.png using Guid(1301c17660a674b499ed27e3436d23a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb480a7f973695952d9df3f9a075d096') in 0.015100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/dustpan01_1.mat
+  artifactKey: Guid(6ea63d3a21fd15e4dae1a7604fe0bbf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/dustpan01_1.mat using Guid(6ea63d3a21fd15e4dae1a7604fe0bbf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4e4b5b023fbf6669098fcd2e8a636e6') in 0.018907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/JP_School classroom_V2/Scenes/School_Classroom
+  artifactKey: Guid(ad87e67e3a180f244a43b946a9a01264) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Scenes/School_Classroom using Guid(ad87e67e3a180f244a43b946a9a01264) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ff49314a430511f1ec05a8f65aa2c7b') in 0.011060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/JP_School classroom_V2/Textures/erasercleaner01_NRM.png
+  artifactKey: Guid(cf3ad4492d9d83445973e32732caaa3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Textures/erasercleaner01_NRM.png using Guid(cf3ad4492d9d83445973e32732caaa3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f3361888855b7119761e4557dc840a4') in 0.019709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/shelf01_2.mat
+  artifactKey: Guid(85617a3576eba7c46a11ce4a372ae946) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/shelf01_2.mat using Guid(85617a3576eba7c46a11ce4a372ae946) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '05e092cc913f105d259048ae4561580a') in 0.014480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/trashbox01_2.mat
+  artifactKey: Guid(ebec7acb109d73141a98f2aafd498d85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/trashbox01_2.mat using Guid(ebec7acb109d73141a98f2aafd498d85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40997047c066884fbe5c7d348d27b332') in 0.010794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/XRI/Settings/Resources/InteractionLayerSettings.asset
+  artifactKey: Guid(fd50de7835da8094fa3ac203e86620ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XRI/Settings/Resources/InteractionLayerSettings.asset using Guid(fd50de7835da8094fa3ac203e86620ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '962cb2e5905c14eb047eaca9b75ef945') in 0.009729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/poster02_pin.fbx
+  artifactKey: Guid(5cb0845d6f4e9fc4aaa8968d34e7d404) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/poster02_pin.fbx using Guid(5cb0845d6f4e9fc4aaa8968d34e7d404) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c32d02ba3a64495456f5b7b59ac1221e') in 0.015875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D URP/GeneralURP.asset
+  artifactKey: Guid(cf928d00a8444ba49935f9e36e1ec6a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D URP/GeneralURP.asset using Guid(cf928d00a8444ba49935f9e36e1ec6a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '622b763f5e83c42d44e7e60682e21307') in 0.028025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.060489 seconds.
+  path: Assets/JP_School classroom_V2/Textures/classroom_floor01_MTL2.tga
+  artifactKey: Guid(17074b144c8026547b35afde7c75b667) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Textures/classroom_floor01_MTL2.tga using Guid(17074b144c8026547b35afde7c75b667) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e94f79b2caa94de944e0343fcaf06472') in 0.017045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials
+  artifactKey: Guid(c79b04d0115fbb2489d91d5a03ce1e22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials using Guid(c79b04d0115fbb2489d91d5a03ce1e22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7eb93f884190d6e1f2e53f481d6a50cd') in 0.010657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/JP_School classroom_V2/Textures/lamp01_1.png
+  artifactKey: Guid(d5ab27e94c137a940a7eb9ea516001ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Textures/lamp01_1.png using Guid(d5ab27e94c137a940a7eb9ea516001ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef111345ddbaee875c77208548aee5f2') in 0.021193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/platform01.fbx
+  artifactKey: Guid(416289ee4eda44a4b8d3da3980d5c413) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/platform01.fbx using Guid(416289ee4eda44a4b8d3da3980d5c413) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ddad9ff6092d0cc8c6a9ca4e9a7ba40') in 0.018575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/lamp01_1.mat
+  artifactKey: Guid(71d197221dce7654b8518d4db17861c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/lamp01_1.mat using Guid(71d197221dce7654b8518d4db17861c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6cb6011d366b0ae771410f434a1d8d67') in 0.014435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/broom01_1.mat
+  artifactKey: Guid(7dcea1324b0ae324ebd4269bb010512c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/broom01_1.mat using Guid(7dcea1324b0ae324ebd4269bb010512c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd8bb8edaf064e4cfe7344a5ea306e8d') in 0.021107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/JP_School classroom_V2/Textures/window01_1.png
+  artifactKey: Guid(48f54edad22e0184da7e4fe0449a825b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Textures/window01_1.png using Guid(48f54edad22e0184da7e4fe0449a825b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2deebd73093b0b19a196ca286dd56dcb') in 0.046974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/chair01.fbx
+  artifactKey: Guid(23d8b650797c4a746a6e742031199568) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/chair01.fbx using Guid(23d8b650797c4a746a6e742031199568) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35241357a8577f5ace64fe55b5302f8f') in 0.020365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/attendancebook01_1.fbx
+  artifactKey: Guid(fd0c74a65b0bf6d45a4d05f531d896d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/attendancebook01_1.fbx using Guid(fd0c74a65b0bf6d45a4d05f531d896d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01b24aa7483aff176a8a63738c15e780') in 0.019541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/JP_School classroom_V2/Textures/book02_2_MTL.tga
+  artifactKey: Guid(7c652bd68c865f94eb54494bb1a3fe81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Textures/book02_2_MTL.tga using Guid(7c652bd68c865f94eb54494bb1a3fe81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3333c7e025e0c1451cc30b6ae37581c7') in 0.018796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/JP_School classroom_V2/Scenes/School_Classroom/Lightmap-0_comp_dir.png
+  artifactKey: Guid(ff9cc97c2611c79408e8c4d0622ffcdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Scenes/School_Classroom/Lightmap-0_comp_dir.png using Guid(ff9cc97c2611c79408e8c4d0622ffcdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '172f2a61c46f00b8ab0004c76c6a6967') in 0.048859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/door01_A.fbx
+  artifactKey: Guid(5ea9a47773bbca04787374479682ff14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/door01_A.fbx using Guid(5ea9a47773bbca04787374479682ff14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4ac410734a531d50bea9006e88b96b9') in 0.023031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/projector01.fbx
+  artifactKey: Guid(63b7546b1eaf5e245b6f9077ba6e0622) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/projector01.fbx using Guid(63b7546b1eaf5e245b6f9077ba6e0622) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '36b1b0e2bf852d4b353fbec6691c631b') in 0.016847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/classroom_floor01_7.mat
+  artifactKey: Guid(6f41aee40f7fa5a41b614805c0918af4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/classroom_floor01_7.mat using Guid(6f41aee40f7fa5a41b614805c0918af4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45ff935d7a895156dab30911995c54cf') in 0.018796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/JP_School classroom_V2/Textures/book03_NRM.png
+  artifactKey: Guid(036b69446c4109e40af2778be1607837) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Textures/book03_NRM.png using Guid(036b69446c4109e40af2778be1607837) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '897df549e00eba40b3de3d71eb1af216') in 0.016667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/JP_School classroom_V2/Textures/desk01_NRM.png
+  artifactKey: Guid(2ec81b0b1e39a364f90d0e0a46f15d92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Textures/desk01_NRM.png using Guid(2ec81b0b1e39a364f90d0e0a46f15d92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '573b2a8745a9be071dcd63a7f0b782c5') in 0.017701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.048619 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/switch01_2.fbx
+  artifactKey: Guid(752655a535edc8d4a90b2bb6d0963be8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/switch01_2.fbx using Guid(752655a535edc8d4a90b2bb6d0963be8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd7e60b245e179201293b7574cebeda7f') in 0.016820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/book02_2.mat
+  artifactKey: Guid(2ed1e24c777912041955b0658625568d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/book02_2.mat using Guid(2ed1e24c777912041955b0658625568d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b06886e57d84bac5b5df8d7d766ccf2') in 0.013836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/clock01_glass.mat
+  artifactKey: Guid(7c83b62e664b21b44ae3aa50afbe2cfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/clock01_glass.mat using Guid(7c83b62e664b21b44ae3aa50afbe2cfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3018d823781a373302cc92de1dac8283') in 0.011674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/lamp01_1.fbx
+  artifactKey: Guid(ec765cebd469b56408c2a05effcd3be6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/lamp01_1.fbx using Guid(ec765cebd469b56408c2a05effcd3be6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '80faff53b9bd8ffbdca16280709132fa') in 0.017880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/eraser01.fbx
+  artifactKey: Guid(3a7a23a2ce3dc1744b74721f2580aa47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/eraser01.fbx using Guid(3a7a23a2ce3dc1744b74721f2580aa47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd72990d79f462df997ea9e407a87e71c') in 0.017944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/screen01_2.fbx
+  artifactKey: Guid(a96e9ddefbb169446ba1c75855323998) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/screen01_2.fbx using Guid(a96e9ddefbb169446ba1c75855323998) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '25312244a850dabe9cce6ec612f3c670') in 0.013837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/JP_School classroom_V2/Textures/counter01_MTL.tga
+  artifactKey: Guid(6220b03d2639a5e4eaeb251cf6d09bf8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Textures/counter01_MTL.tga using Guid(6220b03d2639a5e4eaeb251cf6d09bf8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cceacb423faf187d85d6154dd65a77cd') in 0.018475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/JP_School classroom_V2/Textures/poster02_MTL.tga
+  artifactKey: Guid(8fa5d44cfcde80544b331b413b4372a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Textures/poster02_MTL.tga using Guid(8fa5d44cfcde80544b331b413b4372a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fbeaaf12692112595668881bc9d735ff') in 0.015057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JP_School classroom_V2/Textures/erasercleaner01_MTL.tga
+  artifactKey: Guid(8f85dd3cbce3de441b8a1cb0ca80a924) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Textures/erasercleaner01_MTL.tga using Guid(8f85dd3cbce3de441b8a1cb0ca80a924) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe534c5540c800aa32ebde684806cc24') in 0.016692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/JP_School classroom_V2/Textures/classroom_floor01_AO2.png
+  artifactKey: Guid(af035a0f321d333478028ba196a9ed5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Textures/classroom_floor01_AO2.png using Guid(af035a0f321d333478028ba196a9ed5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e7696b877fd5f41abe8e7946b3de64e0') in 0.013206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 12.091873 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(295af8720cf812e40a8e83544bbb355e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings using Guid(295af8720cf812e40a8e83544bbb355e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e421224da8ddca3de17b71263519fc62') in 0.010515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/projector01_1.mat
+  artifactKey: Guid(be7cadadc5a39fb45a6b91dd174ae75f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/projector01_1.mat using Guid(be7cadadc5a39fb45a6b91dd174ae75f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '317069d0adb13bab6ab4a31cca51116b') in 0.031851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/clock01_glass.mat
+  artifactKey: Guid(7c83b62e664b21b44ae3aa50afbe2cfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/clock01_glass.mat using Guid(7c83b62e664b21b44ae3aa50afbe2cfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19d2a3a8f2f722bff7d8659a0468f9f1') in 0.025452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Settings/Ultra_PipelineAsset.asset
+  artifactKey: Guid(18226f98371c40444b0e54ff86321d51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/Ultra_PipelineAsset.asset using Guid(18226f98371c40444b0e54ff86321d51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab0e42a51606ea277a55fafe2126016b') in 0.023681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/counter01_1.mat
+  artifactKey: Guid(6e84994b649707c49a0a804941065f1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/counter01_1.mat using Guid(6e84994b649707c49a0a804941065f1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a834354239991ddb1b6b776f2bafdfe8') in 0.014998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/poster-frame01_1.mat
+  artifactKey: Guid(edb2885fabeb3d746b8ee01478c4a668) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/poster-frame01_1.mat using Guid(edb2885fabeb3d746b8ee01478c4a668) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3cd33f181758c7f78d1921a47cd9349c') in 0.034053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/erasercleaner01_1.mat
+  artifactKey: Guid(c783de247c965d744aa06fda12ef7b76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/erasercleaner01_1.mat using Guid(c783de247c965d744aa06fda12ef7b76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4634f809833d56132dcf836a891918ae') in 0.017389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/glass01_1.mat
+  artifactKey: Guid(9aedfe6bc3208cc47bc69192bf4bdd02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/glass01_1.mat using Guid(9aedfe6bc3208cc47bc69192bf4bdd02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6790192c6722ee5b522feaeee955f573') in 0.015726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/book02_1.mat
+  artifactKey: Guid(c90d919c7f6a22b46be4a86810f88bef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/book02_1.mat using Guid(c90d919c7f6a22b46be4a86810f88bef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d5b41df0f1dcaf6f470295b98de8b05') in 0.018306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/poster01_1.mat
+  artifactKey: Guid(b821489ed3eff2f47a7145d2955ac5f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/poster01_1.mat using Guid(b821489ed3eff2f47a7145d2955ac5f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1d0904839869204ad6337207304c55b') in 0.016258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/desk02_4.mat
+  artifactKey: Guid(5bfed6c92b6048a49babd566fe1676ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/desk02_4.mat using Guid(5bfed6c92b6048a49babd566fe1676ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3da2624237ac1fd805060f3907fdd820') in 0.042375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/door01_1.mat
+  artifactKey: Guid(2393c3033a8040f4d8d09faf4bbeb550) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/door01_1.mat using Guid(2393c3033a8040f4d8d09faf4bbeb550) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ede65d86bdfaa9666c4fbfb58f6e0ee5') in 0.020617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 19.322141 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/trashbox01_1.mat
+  artifactKey: Guid(fd63e470cb7f1d84499acaaebb1c0604) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/trashbox01_1.mat using Guid(fd63e470cb7f1d84499acaaebb1c0604) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48524265be41e270d36ef69797a88f8f') in 0.012932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/classroom_ceiling01.mat
+  artifactKey: Guid(7fd327c3a48306b4589ac72bcd237373) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/classroom_ceiling01.mat using Guid(7fd327c3a48306b4589ac72bcd237373) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60b64addbd94cb0971745329a572e977') in 0.016572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/classroom_wall01.mat
+  artifactKey: Guid(549d08f0b3b0e3a43a1fefe3839b9fa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/classroom_wall01.mat using Guid(549d08f0b3b0e3a43a1fefe3839b9fa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da5fedab9d76fc4798cb4d46614ec8c1') in 0.030049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/counter01_1.mat
+  artifactKey: Guid(6e84994b649707c49a0a804941065f1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/counter01_1.mat using Guid(6e84994b649707c49a0a804941065f1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2161ac2ba5ef7fea59355c3579c7e4cb') in 0.018545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/screen01_1.mat
+  artifactKey: Guid(e4b656df825629a46a2c42adc77aedba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/screen01_1.mat using Guid(e4b656df825629a46a2c42adc77aedba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95185c5791178a6c6150fa189b2b3e7a') in 0.021159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/attendancebook01_1.mat
+  artifactKey: Guid(c4c40ba977532754aa5416a9401ef4e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/attendancebook01_1.mat using Guid(c4c40ba977532754aa5416a9401ef4e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85e6c912f33be0454ca366d2d37b7ac8') in 0.012670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/book03_1.mat
+  artifactKey: Guid(0cad9de1cdb00054bbfc33b1bb1253c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/book03_1.mat using Guid(0cad9de1cdb00054bbfc33b1bb1253c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '99fa1a73d7dee451ecc82f89982bce0e') in 0.013901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/speaker01_1.mat
+  artifactKey: Guid(ae43a917c2efacd4096b33fabba15c6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/speaker01_1.mat using Guid(ae43a917c2efacd4096b33fabba15c6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d4f56be2e02acaf65899dd4d5122ed0') in 0.013672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/JP_School classroom_V2/Meshes/Materials/eraser01_2.mat
+  artifactKey: Guid(95752644d12d2bd41a151b8a0ee14d1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JP_School classroom_V2/Meshes/Materials/eraser01_2.mat using Guid(95752644d12d2bd41a151b8a0ee14d1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a68cf1c8ab228eea4a8711bba4af030d') in 0.014511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 41.662239 seconds.
+  path: Assets/Settings/High_PipelineAsset.asset
+  artifactKey: Guid(b3c4eb932a108ca46a4d6004c05d1ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/High_PipelineAsset.asset using Guid(b3c4eb932a108ca46a4d6004c05d1ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32b913cd838c9b4257d7250adce1056') in 0.002136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.94 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (1.0 MB). Loaded Objects now: 7012.
+Memory consumption went from 113.8 MB to 112.8 MB.
+Total: 6.431700 ms (FindLiveObjects: 0.896500 ms CreateObjectMapping: 0.222900 ms MarkObjects: 5.043700 ms  DeleteObjects: 0.267700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 51.351135 seconds.
+  path: Assets/Settings/Very High_PipelineAsset.asset
+  artifactKey: Guid(7d715d1a30b66a948a45eaf61c5ae07c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/Very High_PipelineAsset.asset using Guid(7d715d1a30b66a948a45eaf61c5ae07c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43ef2806bf29e312bc2257a50a1dccfa') in 0.017600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 232.664871 seconds.
+  path: Assets/3D PACKAGES
+  artifactKey: Guid(130a0389378fb6d42bfb848688d8085a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES using Guid(130a0389378fb6d42bfb848688d8085a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4088f29e4043fc14fd43befa4870fe71') in 0.008361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.229231 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2
+  artifactKey: Guid(f3b17efd964ba764db569131469cbd1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2 using Guid(f3b17efd964ba764db569131469cbd1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cea604761fb89da9c5b708243f7c6b05') in 0.008617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005959 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Scenes
+  artifactKey: Guid(a84ce3fcbf9fe5e49821872b2a3f2807) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Scenes using Guid(a84ce3fcbf9fe5e49821872b2a3f2807) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38fcdb89ffc93951f67df5f07ad57ac9') in 0.008719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002164 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/desk02_2.mat
+  artifactKey: Guid(197f647038f712e47a2bf8b62b963d7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/desk02_2.mat using Guid(197f647038f712e47a2bf8b62b963d7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd40fe6dea743b60bdb95e525a86872b7') in 0.017949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/classroom_floor01_NRM2.png
+  artifactKey: Guid(7db352c8c9a88a747b13e65021def3d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/classroom_floor01_NRM2.png using Guid(7db352c8c9a88a747b13e65021def3d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a897ce588150ec4c484c73b8a8f04d42') in 0.016866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/bag01_3.fbx
+  artifactKey: Guid(3b8998459592a624c907fbe0df3e1e7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/bag01_3.fbx using Guid(3b8998459592a624c907fbe0df3e1e7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8cfee87f005f6f0e53bfcc9c9c58a471') in 0.015998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/drink01_1.png
+  artifactKey: Guid(063bc948b238e8244a6a246364c1e2d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/drink01_1.png using Guid(063bc948b238e8244a6a246364c1e2d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54220fba22feb6eb6887c747c5436aef') in 0.014436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/ruler01_MTL.tga
+  artifactKey: Guid(721422e70855d2c429402b58cd850f57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/ruler01_MTL.tga using Guid(721422e70855d2c429402b58cd850f57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1dd15def8cdc87cdccade472c6b0d4e9') in 0.014884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/projector01_MTL.tga
+  artifactKey: Guid(a36f9f947f8d49e459f9109139b7afea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/projector01_MTL.tga using Guid(a36f9f947f8d49e459f9109139b7afea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '97c610b1d54f0d99eae9e0aaf130337e') in 0.027338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/platform01_2.mat
+  artifactKey: Guid(ffc2d7e804c004d438443c560fa27fb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/platform01_2.mat using Guid(ffc2d7e804c004d438443c560fa27fb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '36a68e779d5c9dbb22e8dcd85e1d351f') in 0.013276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/attendancebook01_MTL.tga
+  artifactKey: Guid(c7c5de93f1e57644caf513da0ee2b901) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/attendancebook01_MTL.tga using Guid(c7c5de93f1e57644caf513da0ee2b901) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7043c43500fc87976cc99e1f0e32a02f') in 0.016016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/book03_1.png
+  artifactKey: Guid(4e69afc6455b1d84d923ea10ed734f30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/book03_1.png using Guid(4e69afc6455b1d84d923ea10ed734f30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '83c56cebf146ec158659e6e049cb1f89') in 0.017041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Prefabs/projector01.prefab
+  artifactKey: Guid(f16d4e25e865bf04aae08d11830d6811) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Prefabs/projector01.prefab using Guid(f16d4e25e865bf04aae08d11830d6811) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c5774146e698f81a96fc011b640184f6') in 0.012056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/switch01_1.mat
+  artifactKey: Guid(e438fe6838cd9744b9a7d0509dea9e20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/switch01_1.mat using Guid(e438fe6838cd9744b9a7d0509dea9e20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2036ee201e60567abae9fea5e4bc6d40') in 0.011725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/desk02_1.mat
+  artifactKey: Guid(7bb9b1d4e06a6ec42b59ed761272fcfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/desk02_1.mat using Guid(7bb9b1d4e06a6ec42b59ed761272fcfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2c868558b1d22da46d9a9a8b1245bae') in 0.015963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/attendancebook01_NRM.png
+  artifactKey: Guid(8602b156cf700f4418a0aaed5010c764) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/attendancebook01_NRM.png using Guid(8602b156cf700f4418a0aaed5010c764) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '587b344857eaadc28e3dcdd9ee1566b3') in 0.013096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/book02_1_MTL.tga
+  artifactKey: Guid(751581d66b862ee48a00f057a5198030) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/book02_1_MTL.tga using Guid(751581d66b862ee48a00f057a5198030) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c84ec17ec66153f3c229a1bbf79e59b') in 0.017938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/speaker01_NRM.png
+  artifactKey: Guid(e1cb56d0478258a4ea7f7ec66f373b50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/speaker01_NRM.png using Guid(e1cb56d0478258a4ea7f7ec66f373b50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a87ca0c3bc2fa254635ba9307acac83') in 0.015843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/writing_implements01_NRM.png
+  artifactKey: Guid(b57763e25939f35438af9c2bfaa0521c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/writing_implements01_NRM.png using Guid(b57763e25939f35438af9c2bfaa0521c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7dd8e978decd17b3bb7f77e0bbad6585') in 0.016910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/classroom_wall02.mat
+  artifactKey: Guid(f2b9bd04af9200143baf951d3038bef9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/classroom_wall02.mat using Guid(f2b9bd04af9200143baf951d3038bef9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ac55c07610233ba17ffe566588f9bbe') in 0.012926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/door01_1.png
+  artifactKey: Guid(6f472c9811d98eb459662e48f5db4880) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/door01_1.png using Guid(6f472c9811d98eb459662e48f5db4880) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '959534cd7ee1ef63e261a1e10fbc7d5c') in 0.015706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/broom01_1.mat
+  artifactKey: Guid(7dcea1324b0ae324ebd4269bb010512c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/broom01_1.mat using Guid(7dcea1324b0ae324ebd4269bb010512c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e4429b321f9448be8488c15f0c31557') in 0.012910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/classroom_floor01_1.mat
+  artifactKey: Guid(5adc20a1b7ce06b4ba5dc654eaa1a0ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/classroom_floor01_1.mat using Guid(5adc20a1b7ce06b4ba5dc654eaa1a0ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '947b311aa782f6d8529680f9627b0028') in 0.014880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/chalk01_pink.fbx
+  artifactKey: Guid(6406dac859d67274ebc3c141ffeba89a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/chalk01_pink.fbx using Guid(6406dac859d67274ebc3c141ffeba89a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '646c3e951e224c14df9feafe1aad6e1e') in 0.015458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/switch01_2.fbx
+  artifactKey: Guid(752655a535edc8d4a90b2bb6d0963be8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/switch01_2.fbx using Guid(752655a535edc8d4a90b2bb6d0963be8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba1bc0fe800dd741a4ee804a893f6dfe') in 0.018535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/book03_1.mat
+  artifactKey: Guid(0cad9de1cdb00054bbfc33b1bb1253c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/book03_1.mat using Guid(0cad9de1cdb00054bbfc33b1bb1253c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d7cec8e181bd9a1607521f3783cf736') in 0.013147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/broom01_1.png
+  artifactKey: Guid(2d03b356d4d60ef4490ac1a586af8b4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/broom01_1.png using Guid(2d03b356d4d60ef4490ac1a586af8b4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc7f3c3e2ddd84bde66f317cd750d300') in 0.015262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/glass02_1.mat
+  artifactKey: Guid(d2eb6a5a4cf1cfb42805e2bc2944b128) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/glass02_1.mat using Guid(d2eb6a5a4cf1cfb42805e2bc2944b128) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2aa790456e4f6b9c6ff8839297c78eae') in 0.010483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/classroom_floor01_1.png
+  artifactKey: Guid(a6b9f96bb27bee1428881e556b85e714) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/classroom_floor01_1.png using Guid(a6b9f96bb27bee1428881e556b85e714) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52666304e78576cb185a160be8ff609d') in 0.018449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/shelf01_2_MTL.tga
+  artifactKey: Guid(541ac38a632f4164b8e250d3d8790aa9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/shelf01_2_MTL.tga using Guid(541ac38a632f4164b8e250d3d8790aa9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '16acb1822eb3d8c51b96969462a5ceff') in 0.018964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Prefabs/speaker01_3.prefab
+  artifactKey: Guid(ea79488b71819b740a6c65b48328731f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Prefabs/speaker01_3.prefab using Guid(ea79488b71819b740a6c65b48328731f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '16a5bb7788aa0187749c9aa889d3c073') in 0.013979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/classroom_wall01_1.png
+  artifactKey: Guid(19f5cf2bb5fa5774e88c9cdab2196138) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/classroom_wall01_1.png using Guid(19f5cf2bb5fa5774e88c9cdab2196138) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dce831586a4fb7ab4e9c922c26e30b03') in 0.018309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/desk01_1.mat
+  artifactKey: Guid(c5974b703fc24364bad0accb17a02f07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/desk01_1.mat using Guid(c5974b703fc24364bad0accb17a02f07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bee81d7c2645c7766267503b4450723d') in 0.013885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Prefabs/window01.prefab
+  artifactKey: Guid(5c57b25077e82c04a88f85c3a9ba1edf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Prefabs/window01.prefab using Guid(5c57b25077e82c04a88f85c3a9ba1edf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ea8ec6e5c2ca8746c5282aeb6562b49') in 0.011919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/counter01_NRM.png
+  artifactKey: Guid(2858de14ad341254796b1888360818e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/counter01_NRM.png using Guid(2858de14ad341254796b1888360818e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74d0718bdafe631c57910fd9e74552b2') in 0.016527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/classroom_wall02_1.png
+  artifactKey: Guid(3a3593b906b390d4da78106d3a6f56ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/classroom_wall02_1.png using Guid(3a3593b906b390d4da78106d3a6f56ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc734fdc7559325d05a1b66ce4dcc273') in 0.014281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/shelf01_1.mat
+  artifactKey: Guid(75c1a4865274c7446bb680c05f2b707f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/shelf01_1.mat using Guid(75c1a4865274c7446bb680c05f2b707f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef173587ce4be2b709823cf5a5c12114') in 0.015752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/chair01.fbx
+  artifactKey: Guid(23d8b650797c4a746a6e742031199568) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/chair01.fbx using Guid(23d8b650797c4a746a6e742031199568) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3c1d6109f391d159f13d6bc1842898f1') in 0.017456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/eraser01_2.mat
+  artifactKey: Guid(95752644d12d2bd41a151b8a0ee14d1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/eraser01_2.mat using Guid(95752644d12d2bd41a151b8a0ee14d1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72dfcf040d96428700cd4ab29bb1f72a') in 0.015548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/classroom_ceiling01.mat
+  artifactKey: Guid(7fd327c3a48306b4589ac72bcd237373) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/classroom_ceiling01.mat using Guid(7fd327c3a48306b4589ac72bcd237373) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61c9ad5bfbf62389d280c380aa6cb43e') in 0.012486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Scenes/School_Classroom/Lightmap-0_comp_light.exr
+  artifactKey: Guid(0355268aa0548594487736a4d28891e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Scenes/School_Classroom/Lightmap-0_comp_light.exr using Guid(0355268aa0548594487736a4d28891e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1219d8298fc53133b7a8adbe7a6af530') in 0.044503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/classroom_floor01_MTL2.tga
+  artifactKey: Guid(17074b144c8026547b35afde7c75b667) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/classroom_floor01_MTL2.tga using Guid(17074b144c8026547b35afde7c75b667) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4bdb76837c0e32216fd04b947007d22c') in 0.018335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/locker01_MTL.tga
+  artifactKey: Guid(a20f181860ce13a4fb7735754e09b600) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/locker01_MTL.tga using Guid(a20f181860ce13a4fb7735754e09b600) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '310373409b0e4b69ab17c1407b2313ee') in 0.015474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Scenes/School_ClassroomSettings.lighting
+  artifactKey: Guid(10872e34e45549b45a23c3e6e9866483) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Scenes/School_ClassroomSettings.lighting using Guid(10872e34e45549b45a23c3e6e9866483) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 2.
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b69325d23781e7c3e1eef2c058a2d93d') in 0.015633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/chalk01_2.mat
+  artifactKey: Guid(c4e2720176d041c46bb0210d8793fa3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/chalk01_2.mat using Guid(c4e2720176d041c46bb0210d8793fa3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06147e7ee9b5b902a61fb59ce6c33e78') in 0.011477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/platform01_2.png
+  artifactKey: Guid(beda0d510e8474b4cb059350e4804708) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/platform01_2.png using Guid(beda0d510e8474b4cb059350e4804708) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1819de38568f884f08e064487bdbf47') in 0.018195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/trashbox01.fbx
+  artifactKey: Guid(77307d199890d27438a3b53a4231fb85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/trashbox01.fbx using Guid(77307d199890d27438a3b53a4231fb85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7206c16ada45dc2e5f566d3170175cc') in 0.016826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/curtain01_winframe.fbx
+  artifactKey: Guid(eb7555099d277fa4f9c3253e276f93e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/curtain01_winframe.fbx using Guid(eb7555099d277fa4f9c3253e276f93e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78fe3fe8a6f0df576c6ac4340b43ad08') in 0.016876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/glass01_1.mat
+  artifactKey: Guid(9aedfe6bc3208cc47bc69192bf4bdd02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/glass01_1.mat using Guid(9aedfe6bc3208cc47bc69192bf4bdd02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd04a2e0b499514b245ee6dd594a120be') in 0.010496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/desk02_NRM.png
+  artifactKey: Guid(8a42b79c07f601e49a5205394d69a3e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/desk02_NRM.png using Guid(8a42b79c07f601e49a5205394d69a3e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '24240539a00d36675406af4edc44a06b') in 0.020806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/lamp01_1.fbx
+  artifactKey: Guid(ec765cebd469b56408c2a05effcd3be6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/lamp01_1.fbx using Guid(ec765cebd469b56408c2a05effcd3be6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0a6d90ab45e8b1e944184ff6ef8ba22') in 0.017134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/drink01.fbx
+  artifactKey: Guid(431181fc78343c64592c2548a25d4bff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/drink01.fbx using Guid(431181fc78343c64592c2548a25d4bff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6730baac0292faf1956a59fc45d6acdf') in 0.012886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/screen01_1.png
+  artifactKey: Guid(e1eed36c2da0db8458b51d50f40fc55b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/screen01_1.png using Guid(e1eed36c2da0db8458b51d50f40fc55b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bea8b4f4d968ceaac61717c6f5455fb0') in 0.017232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/book02_1.mat
+  artifactKey: Guid(c90d919c7f6a22b46be4a86810f88bef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/book02_1.mat using Guid(c90d919c7f6a22b46be4a86810f88bef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '781e2c3739ac14158bb41f57c7b63c87') in 0.012440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/bag01_NRM.png
+  artifactKey: Guid(5005043d5563c894b986be6157bd6779) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/bag01_NRM.png using Guid(5005043d5563c894b986be6157bd6779) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52ba7c8caec4a3efb6982d16b1f97892') in 0.016534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/shelf01_NRM.png
+  artifactKey: Guid(3076c83d9247d8c42b929bbaf4b79285) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/shelf01_NRM.png using Guid(3076c83d9247d8c42b929bbaf4b79285) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52fad4374da79d02c7a41cf601edcbd2') in 0.018680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Scenes/School_Classroom/Lightmap-0_comp_dir.png
+  artifactKey: Guid(ff9cc97c2611c79408e8c4d0622ffcdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Scenes/School_Classroom/Lightmap-0_comp_dir.png using Guid(ff9cc97c2611c79408e8c4d0622ffcdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f0749bc74ea42139ac411e676c1132c') in 0.026055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/window01_1.mat
+  artifactKey: Guid(70588eeb49987054fbd82014e339c5f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/window01_1.mat using Guid(70588eeb49987054fbd82014e339c5f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '566a0e3491d097e494ebfb0fda27d218') in 0.014157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/clock01_NRM.png
+  artifactKey: Guid(6486b07c1d9ebef4d83a5494d6991a46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/clock01_NRM.png using Guid(6486b07c1d9ebef4d83a5494d6991a46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17dd4e256466228eadff29584a2842f6') in 0.017200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008697 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/broom01_NRM.png
+  artifactKey: Guid(0957ee17a55d90740ba65ea729fa4d9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/broom01_NRM.png using Guid(0957ee17a55d90740ba65ea729fa4d9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c55ebe8593bb9611fddcbe938bdbed44') in 0.032322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/counter01_AO.png
+  artifactKey: Guid(dfbee277832f83848a83577e83ebe5a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/counter01_AO.png using Guid(dfbee277832f83848a83577e83ebe5a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1cb8ecb98395ddfafbdc5fb711cac1dc') in 0.015342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/curtain01_1.png
+  artifactKey: Guid(943713317249b3c4392a04d373b9015e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/curtain01_1.png using Guid(943713317249b3c4392a04d373b9015e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb08272c664c4260a4f07943af4ca004') in 0.015688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/chalk01_2.png
+  artifactKey: Guid(39eb8bba4d534d44b817c2c013e8f297) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/chalk01_2.png using Guid(39eb8bba4d534d44b817c2c013e8f297) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a334b1252b2f79da8906d202adf3cb71') in 0.016883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/curtain01_NRM.png
+  artifactKey: Guid(551fcc85c1a87d64389e9332400828df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/curtain01_NRM.png using Guid(551fcc85c1a87d64389e9332400828df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3dffbda88abb2fd075d479d3f8083847') in 0.016457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/shelf01.fbx
+  artifactKey: Guid(782f7f1777bb42d41ad113de789a9dbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/shelf01.fbx using Guid(782f7f1777bb42d41ad113de789a9dbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3c12ce05af90c3dcf608c533843311cb') in 0.018057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/platform01_MTL.tga
+  artifactKey: Guid(f6246f453facda94bb949bbfa8413308) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/platform01_MTL.tga using Guid(f6246f453facda94bb949bbfa8413308) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c7745a7dada5df0a309bc8574531b41a') in 0.016601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/writing_implements01_MTL.tga
+  artifactKey: Guid(de8ff8529114fd64592683428e63f7fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/writing_implements01_MTL.tga using Guid(de8ff8529114fd64592683428e63f7fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9adff0893eb1fb6a0710047ace0aa779') in 0.017823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/counter01_1.png
+  artifactKey: Guid(93ae7bc2f5cff934fbc9d1813d5ff7df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/counter01_1.png using Guid(93ae7bc2f5cff934fbc9d1813d5ff7df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '444a3c59f9a26a4079d620425889f96f') in 0.015070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/blackboard01_MTL.tga
+  artifactKey: Guid(b5a07bc6efeaa634b83e75b2648ba619) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/blackboard01_MTL.tga using Guid(b5a07bc6efeaa634b83e75b2648ba619) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2a6b0c0912c9b5fa61ce80ca289e638') in 0.017813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/shelf01_2.png
+  artifactKey: Guid(daabc1c0171c2fd40a076b8ae297fc77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/shelf01_2.png using Guid(daabc1c0171c2fd40a076b8ae297fc77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61df47184fa2073b791eb8b64602d3db') in 0.014265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Scenes/School_Classroom.unity
+  artifactKey: Guid(b64e7bfed3af07540960a741f9195d89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Scenes/School_Classroom.unity using Guid(b64e7bfed3af07540960a741f9195d89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79db6926c705ee548b051bbcaad52e8e') in 0.008091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/screen01_1.mat
+  artifactKey: Guid(e4b656df825629a46a2c42adc77aedba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/screen01_1.mat using Guid(e4b656df825629a46a2c42adc77aedba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '852270ee279dca60d373eab82b17d849') in 0.015204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/counter01_2.fbx
+  artifactKey: Guid(dcf715bf0a18c7a4197be059295e3194) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/counter01_2.fbx using Guid(dcf715bf0a18c7a4197be059295e3194) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ff82d55ee87e9116ab1ab7ecc93a757') in 0.016232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/window01_MTL.tga
+  artifactKey: Guid(67dc2fef909ed7242840aceac0b5f371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/window01_MTL.tga using Guid(67dc2fef909ed7242840aceac0b5f371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '90781015bb839d40c504302c585f1595') in 0.016466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/eraser01_1.png
+  artifactKey: Guid(91e19f6f1351b3a4686a13f806b6495f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/eraser01_1.png using Guid(91e19f6f1351b3a4686a13f806b6495f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'abf573631a766ddee903730fe7bd172b') in 0.018400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/poster01_1.mat
+  artifactKey: Guid(b821489ed3eff2f47a7145d2955ac5f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/poster01_1.mat using Guid(b821489ed3eff2f47a7145d2955ac5f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd3c69c8ac3613d2d9cb65196cf80991') in 0.011157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/board01_long.fbx
+  artifactKey: Guid(0505c26dd6b709d4887004b61454b2e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/board01_long.fbx using Guid(0505c26dd6b709d4887004b61454b2e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '544a69878a1054939b8d334d2fa309ba') in 0.015763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/writing_implements01_eraser.fbx
+  artifactKey: Guid(925cf6bb24d02a44c99029644176530c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/writing_implements01_eraser.fbx using Guid(925cf6bb24d02a44c99029644176530c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17cfce910711c66b88028d0edb640c17') in 0.016611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/locker01_NRM.png
+  artifactKey: Guid(2e5d9474a6b259d4291a0ec294f36510) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/locker01_NRM.png using Guid(2e5d9474a6b259d4291a0ec294f36510) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '730822b705e00bbe5738af9a9a3281fe') in 0.017292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/classroom_wall03_NRM.png
+  artifactKey: Guid(f08e0cb6c41e32c4d8f376a98ca2ebed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/classroom_wall03_NRM.png using Guid(f08e0cb6c41e32c4d8f376a98ca2ebed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e0496f98d5299224d89fe0ee74bbbf7') in 0.017377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/bag01_1.mat
+  artifactKey: Guid(2b5d8955c342735499e14d30a23d511c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/bag01_1.mat using Guid(2b5d8955c342735499e14d30a23d511c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd3dc06ae63a7e69cd1736c655262714') in 0.012852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/classroom_wall02_NRM.png
+  artifactKey: Guid(02e2cb5d83e18fc4f80dad1e0a39fbc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/classroom_wall02_NRM.png using Guid(02e2cb5d83e18fc4f80dad1e0a39fbc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c9b9d13e2b6afcc16a3bd6e04751faa') in 0.016010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/lamp01_MTL.tga
+  artifactKey: Guid(d49627ad1e5bee24e97c9004595b51cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/lamp01_MTL.tga using Guid(d49627ad1e5bee24e97c9004595b51cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67fa404a8e38b389e12ac458c27fa7b2') in 0.017113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/lamp02_NRM.png
+  artifactKey: Guid(ee95f73e01e423840a76541350c12d33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/lamp02_NRM.png using Guid(ee95f73e01e423840a76541350c12d33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31b58b366358447d9094b4b5ff9732b7') in 0.016167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/eraser01_NRM.png
+  artifactKey: Guid(72ed641d9872ee8418bea6346188b5d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/eraser01_NRM.png using Guid(72ed641d9872ee8418bea6346188b5d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3467020c790903a65a5c31fb88d8e3c') in 0.015708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/broom01_MTL.tga
+  artifactKey: Guid(2e5ced9f16f55914186d6b9de19efb10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/broom01_MTL.tga using Guid(2e5ced9f16f55914186d6b9de19efb10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd92bb396049195b99db388cad6fa089d') in 0.019509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/platform01.fbx
+  artifactKey: Guid(416289ee4eda44a4b8d3da3980d5c413) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/platform01.fbx using Guid(416289ee4eda44a4b8d3da3980d5c413) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03c9d8db617192aa7b833d9e67b489bd') in 0.015126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/erasercleaner01.fbx
+  artifactKey: Guid(0066048c0b8e8af4ebeb4c8f8325d6b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/erasercleaner01.fbx using Guid(0066048c0b8e8af4ebeb4c8f8325d6b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc0fd4ad5e6929721ec55df601dc5fe4') in 0.017091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/poster-frame01_1.mat
+  artifactKey: Guid(edb2885fabeb3d746b8ee01478c4a668) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/poster-frame01_1.mat using Guid(edb2885fabeb3d746b8ee01478c4a668) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6a5115c7b9824fb7273ff65ae96d41b') in 0.016106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/screen01_2.fbx
+  artifactKey: Guid(a96e9ddefbb169446ba1c75855323998) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/screen01_2.fbx using Guid(a96e9ddefbb169446ba1c75855323998) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '805766db5ac411a105d9bc12a5790e54') in 0.014988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/desk01_1.png
+  artifactKey: Guid(9612e9193445b424ea897a377399897d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/desk01_1.png using Guid(9612e9193445b424ea897a377399897d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a06d8cd9024d933555ba1ddd63b40f6b') in 0.016961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/clock01_MTL.tga
+  artifactKey: Guid(21ee41cc41b671945af5d5841454d05b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/clock01_MTL.tga using Guid(21ee41cc41b671945af5d5841454d05b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dda78e7be85b6ee870dcb00430a0fdb5') in 0.015794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/clock01_1.mat
+  artifactKey: Guid(5fc6f456bec07b34c8726249d30f8e87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/clock01_1.mat using Guid(5fc6f456bec07b34c8726249d30f8e87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4f8fb6f8777d8b6dc7417729dab1dcf') in 0.013407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/lamp02_ILM.png
+  artifactKey: Guid(753d1e7e8ce6f6948b7feee7144cfe73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/lamp02_ILM.png using Guid(753d1e7e8ce6f6948b7feee7144cfe73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6dac2274b6aea5f886ae666c0554f5af') in 0.016781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/poster02_MTL.tga
+  artifactKey: Guid(8fa5d44cfcde80544b331b413b4372a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/poster02_MTL.tga using Guid(8fa5d44cfcde80544b331b413b4372a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f33f3b46bd28373555b515f42428f86') in 0.027256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/book01_b2.fbx
+  artifactKey: Guid(028ab56246eb97449ba025c08fef20c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/book01_b2.fbx using Guid(028ab56246eb97449ba025c08fef20c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e2feeb05bde28260d1d1e856a31f777') in 0.019295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/ruler01_compass.fbx
+  artifactKey: Guid(d5d23f7875dbf6b4dba9fa3ca8d54937) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/ruler01_compass.fbx using Guid(d5d23f7875dbf6b4dba9fa3ca8d54937) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51d076739c3f70890d1fb7a97cb953ab') in 0.017093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/chair01_1.mat
+  artifactKey: Guid(15766e0000ff8a3439f0d7e7222ca851) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/chair01_1.mat using Guid(15766e0000ff8a3439f0d7e7222ca851) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ff70761b96f8837da1d70a5ee953bc7') in 0.016451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/writing_implements01_pen.fbx
+  artifactKey: Guid(09cf0a63b089b5c4b97fca58d013aa3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/writing_implements01_pen.fbx using Guid(09cf0a63b089b5c4b97fca58d013aa3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a8593ef32f0ef5be107452eb08bae9d') in 0.014110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/attendancebook01_1.fbx
+  artifactKey: Guid(fd0c74a65b0bf6d45a4d05f531d896d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/attendancebook01_1.fbx using Guid(fd0c74a65b0bf6d45a4d05f531d896d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2c9bbba285d875a3dc55a10b8db5219') in 0.015818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/book03_1_MTL.tga
+  artifactKey: Guid(022f620946276af41be3950654309693) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/book03_1_MTL.tga using Guid(022f620946276af41be3950654309693) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd23719e2a530396f7eff73b6a7c99496') in 0.015905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/curtain01_MTL.tga
+  artifactKey: Guid(6f5fda4bf5475674ea1016ae743b1f86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/curtain01_MTL.tga using Guid(6f5fda4bf5475674ea1016ae743b1f86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b891f62d5489b927d75c29ec95fde6d5') in 0.017435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/book03.fbx
+  artifactKey: Guid(0a18dc12414615041a79a053d5c2fd83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/book03.fbx using Guid(0a18dc12414615041a79a053d5c2fd83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e04393858dcd7496deb99a319ef5f6a6') in 0.013473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/classroom_floor01_AO2.png
+  artifactKey: Guid(af035a0f321d333478028ba196a9ed5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/classroom_floor01_AO2.png using Guid(af035a0f321d333478028ba196a9ed5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58fd9feb9bad0d9f3c804d644a281369') in 0.016040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/bag01_AO.png
+  artifactKey: Guid(ba4fba0a689954a458aa181c216d017a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/bag01_AO.png using Guid(ba4fba0a689954a458aa181c216d017a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f490e3b1d42e61b344dc8c3172bb257') in 0.016661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/projector01_1.mat
+  artifactKey: Guid(be7cadadc5a39fb45a6b91dd174ae75f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/projector01_1.mat using Guid(be7cadadc5a39fb45a6b91dd174ae75f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ebb62294f2afe67e4614261168860daf') in 0.016779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/attendancebook01_2.fbx
+  artifactKey: Guid(4103e68f38d01a94a9a13cf436adaae9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/attendancebook01_2.fbx using Guid(4103e68f38d01a94a9a13cf436adaae9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d1f739c4c2d128d3008ff7a91ba431f') in 0.015019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/book02_2.mat
+  artifactKey: Guid(2ed1e24c777912041955b0658625568d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/book02_2.mat using Guid(2ed1e24c777912041955b0658625568d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '536c419e182222ac8126e61138d09581') in 0.014729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/classroom_floor01_MTL.tga
+  artifactKey: Guid(be981727ea5c2c545858859c13988499) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/classroom_floor01_MTL.tga using Guid(be981727ea5c2c545858859c13988499) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21cab20049f505a958aa0da57d5f285b') in 0.016065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/switch01_NRM.png
+  artifactKey: Guid(3ae0ceb877af8b64896a414f55239ee7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/switch01_NRM.png using Guid(3ae0ceb877af8b64896a414f55239ee7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9cd2c2c47c4fce917198465b7321a890') in 0.015130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/locker01_open.fbx
+  artifactKey: Guid(8a1a50b8fdfa35345aeeaf51f3da28ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/locker01_open.fbx using Guid(8a1a50b8fdfa35345aeeaf51f3da28ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bbbc57112cfb21734b78aa22c889f854') in 0.018600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/ruler01_NRM.png
+  artifactKey: Guid(2ba2d008908862c4dbb951774323e459) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/ruler01_NRM.png using Guid(2ba2d008908862c4dbb951774323e459) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '893b18e015ba215644de9c2292ba887c') in 0.016157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/attendancebook01_1.png
+  artifactKey: Guid(241aebdec0dcb90478e4d7a7b2a33fc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/attendancebook01_1.png using Guid(241aebdec0dcb90478e4d7a7b2a33fc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a30b6b6edecbc21cace5247cc96f30e') in 0.016957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/poster-frame01_MTL.tga
+  artifactKey: Guid(58a0a723584ba1a4882e051bd6b8195f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/poster-frame01_MTL.tga using Guid(58a0a723584ba1a4882e051bd6b8195f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bfab67ddffbee74632f7b4ed537a5c24') in 0.016075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/book02_1_B.png
+  artifactKey: Guid(f0f33bc46b170174a8b987278fdfe5c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/book02_1_B.png using Guid(f0f33bc46b170174a8b987278fdfe5c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f24df3efb745236417ae77350a95d78') in 0.015298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/screen01_1.fbx
+  artifactKey: Guid(1814b649eca0a7546a1043eefc26641c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/screen01_1.fbx using Guid(1814b649eca0a7546a1043eefc26641c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f42ad33203d7846e4ebba61559ec12c4') in 0.014534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/shelf01_1_MTL.tga
+  artifactKey: Guid(72f30396312f3924fad9dffe58805f92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/shelf01_1_MTL.tga using Guid(72f30396312f3924fad9dffe58805f92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1662ffef3b0a5771ec3ca00472f06f60') in 0.015942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/classroom_wall03_1.png
+  artifactKey: Guid(099e4f2891d96a64b8470b37d4521984) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/classroom_wall03_1.png using Guid(099e4f2891d96a64b8470b37d4521984) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cfb5ef3d4518c1512a185576936dde1f') in 0.017414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/dustpan01_1.mat
+  artifactKey: Guid(6ea63d3a21fd15e4dae1a7604fe0bbf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/dustpan01_1.mat using Guid(6ea63d3a21fd15e4dae1a7604fe0bbf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb2b3d1e0b8eac2680b938bbfb1901d3') in 0.017615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/broom01_2.fbx
+  artifactKey: Guid(905aa192611d06b488ceddd22b110896) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/broom01_2.fbx using Guid(905aa192611d06b488ceddd22b110896) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3fb298bc0a66fb51a6f1a39ab2932e5f') in 0.014243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/shelf01_AO.png
+  artifactKey: Guid(4f471a266a0ace84d82624b02def3ebf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/shelf01_AO.png using Guid(4f471a266a0ace84d82624b02def3ebf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a09c6a8116ad81b56329aba8a2a0a3f0') in 0.017898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Prefabs
+  artifactKey: Guid(2043d52db0b3cb74fa958296072d6606) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Prefabs using Guid(2043d52db0b3cb74fa958296072d6606) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3371ab11ecc7b5946b7538d3a5640964') in 0.006983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/door01_B.fbx
+  artifactKey: Guid(c361613f382985e498a1900626bb329b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/door01_B.fbx using Guid(c361613f382985e498a1900626bb329b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '965e8bc95383dd1850f4fcafc1dbd605') in 0.021667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/erasercleaner01_NRM.png
+  artifactKey: Guid(cf3ad4492d9d83445973e32732caaa3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/erasercleaner01_NRM.png using Guid(cf3ad4492d9d83445973e32732caaa3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4691f80503556f6354e56553d92d845') in 0.015723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Scenes/School_Classroom/ReflectionProbe-1.exr
+  artifactKey: Guid(71810a2ed63c0294eb3f5146edcf44e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Scenes/School_Classroom/ReflectionProbe-1.exr using Guid(71810a2ed63c0294eb3f5146edcf44e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1ca630f0e3252c99b02a4a0a28de95c') in 0.018269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/bag01_MTL.tga
+  artifactKey: Guid(1fa60e43933a8ca49ae0a25cd23d1a99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/bag01_MTL.tga using Guid(1fa60e43933a8ca49ae0a25cd23d1a99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fea6c74da9f4095a636e0dc4026d0956') in 0.021879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/shelf01_2.mat
+  artifactKey: Guid(85617a3576eba7c46a11ce4a372ae946) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/shelf01_2.mat using Guid(85617a3576eba7c46a11ce4a372ae946) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '13ad3c930331045477e41b36dad83ffd') in 0.013849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/chair01_MTL.tga
+  artifactKey: Guid(4e9f665d7f4cefb48b16c7c9c9f7aefe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/chair01_MTL.tga using Guid(4e9f665d7f4cefb48b16c7c9c9f7aefe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e79c75f00c8e9959d5d9399c3bb6d92e') in 0.021521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/eraser01_MTL.tga
+  artifactKey: Guid(f2697f8bf1916b042af062c251f7dc27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/eraser01_MTL.tga using Guid(f2697f8bf1916b042af062c251f7dc27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd45a29d21a9e3b4195ba477cb71f982d') in 0.017097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/trashbox01_2.mat
+  artifactKey: Guid(ebec7acb109d73141a98f2aafd498d85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/trashbox01_2.mat using Guid(ebec7acb109d73141a98f2aafd498d85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed779ffefca3911e8910930197fb15a1') in 0.016309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/trashbox01_2.png
+  artifactKey: Guid(e98c7a7666a361b43a467675aa19be24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/trashbox01_2.png using Guid(e98c7a7666a361b43a467675aa19be24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a3def0f636c1b0fc1af27e0cf13281f9') in 0.020010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/desk01_MTL.tga
+  artifactKey: Guid(8e1c2c4e0b001934189482d04e2bfdcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/desk01_MTL.tga using Guid(8e1c2c4e0b001934189482d04e2bfdcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5618e01db5808a6dd02228cdeb577824') in 0.014183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/book03_NRM.png
+  artifactKey: Guid(036b69446c4109e40af2778be1607837) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/book03_NRM.png using Guid(036b69446c4109e40af2778be1607837) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '83259a3703ce094e7eeec11d310d8c96') in 0.016969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/blackboard01_NRM.png
+  artifactKey: Guid(a6b9795c23578cf44b0d1eb8842611a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/blackboard01_NRM.png using Guid(a6b9795c23578cf44b0d1eb8842611a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51c92dc75618933cb836d6604cf3dcfb') in 0.022832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Textures/desk02_1.png
+  artifactKey: Guid(107dd148840938343840d539a8528063) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Textures/desk02_1.png using Guid(107dd148840938343840d539a8528063) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '65be2132b8f72a38ff33666caf2be960') in 0.018833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/drink01_1.mat
+  artifactKey: Guid(24684d96343675c47a1437b90798e58c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D PACKAGES/JP_School classroom_V2/Meshes/Materials/drink01_1.mat using Guid(24684d96343675c47a1437b90798e58c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '527939243bf733d6b2c881d94d8c2199') in 0.016177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
